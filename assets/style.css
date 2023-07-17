@@ -3,3 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --blu:#0084fd;
+    --soft-blu:#b5ddff;
+    --purple:#9792e4;
+    --soft-purple:#c5c2ef;
+    --yellow:#fdc15f;
+    --bg-footer:#333333;
+}
