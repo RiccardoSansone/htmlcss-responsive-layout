@@ -24,10 +24,12 @@
 .row{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .col-4{
     width: calc(100 / 12 * 4);
+    
 }
 
 .col-6{
@@ -36,6 +38,7 @@
 
 .col-8{
     width: calc(100 / 12 * 8);
+    padding: 1rem;
 }
 
 .col-12{
@@ -91,9 +94,22 @@
 }
 
 .text-center{
-    text-align: center;
+    text-align: center ;
 }
 
+.description-container{
+    display: flex;
+    flex-direction: column; 
+}
+
+.btn-sm{
+    padding: 0.3rem 1rem;
+    border-radius: 20px;
+}
+
+.btn-white{
+    background-color: white;
+}
 /* /utility */
 
 /* header */
@@ -131,29 +147,60 @@ header{
     margin: 1.5rem 0;
 }
 
+/* main */
 
 
 /* media-query for desktop */
-@media screen and (min-with: 1200px) 
-{
+@media screen and (min-width: 1200px) {
 
-.col-8-md{
-        width: calc(100 / 12 * 8);
- }
+    .bars{
+        display: none;
+    }
+    
+    .menu a{
+        color: white; 
+        text-decoration: none;
+        padding-left: 1rem;
+    }
 
-.col-4-md{
-    width: calc(100 / 12 * 4);
- }
+    .menu{
+        display: block;
+    }
 
-.bars{
-    display: none;
- }
- 
-.menu a{
-    color: white; 
- }
+    .img{
+        padding-top: 6rem;
+    }
+    .col-8-md{
+        width: calc(100% / 12 * 8);
+        display: flex;
+        flex-direction: row;
+    }
 
- .menu{
-    display: block;
- }
+    .col-4-md{
+        width: calc(100% / 12 * 3.7);
+    }
+}
+/* media-query for tablet */
+@media screen and (min-width: 768px) {
+
+    .container{
+        width: 95%;
+    }
+
+    .btn{
+        padding: 0.5rem 1rem;
+    }
+
+    .img{
+        padding-top: 12.1rem;
+    }
+    .col-8-md{
+        width: calc(100% / 12 * 8);
+        display: flex;
+        flex-direction: row;
+    }
+
+    .col-4-md{
+        width: calc(100% / 12 * 3.7);
+    }
 }

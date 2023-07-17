@@ -3,8 +3,9 @@
 <head>
     <title>Responsive-Layout</title>
     <link rel="stylesheet" href="./assets/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/mediaQuery.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <header>
@@ -21,7 +22,7 @@
                     <a href="#">Testimonials</a>
                     <a href="#">Featurs</a>
                     <a href="#">About Us</a>
-                    <a class="btn-sm btn-white" href="#">Get Started</a>
+                    <a style="color: black;"  class="btn-sm btn-white" href="#">Get Started</a>
                 </div>
             </nav>
 
@@ -34,16 +35,18 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-8-md gap">
-                        <h2>
-                            Get a demo application
-                        </h2>
-                        <p class="line-height align-self-center">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam accusantium nam 
-                            quidem harum rerum veniam et, doloribus repellendus mollitia, soluta quod cupiditate 
-                            similique doloremque ullam?
-                        </p>
-                        <a class="btn btn-blu text-decoration-none align-self-center" href="#"><i class="fa-brands fa-apple"></i>  App Store</a>
-                        <img style="margin-bottom:-2rem" src="./assets/img/phone.png" alt="">
+                        <div class="description-container gap">
+                            <h2>
+                                Get a demo application
+                            </h2>
+                            <p class="line-height align-self-center">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam accusantium nam 
+                                quidem harum rerum veniam et, doloribus repellendus mollitia, soluta quod cupiditate 
+                                similique doloremque ullam?
+                            </p>
+                            <a class="btn btn-blu text-decoration-none align-self-center" href="#"><i class="fa-brands fa-apple"></i>  App Store</a>
+                        </div>
+                        <img class="align-self-center img" style="margin-bottom:-2rem; width: 200px;" src="./assets/img/phone.png" alt="">
                     </div>
                     <div class="col-12 col-4-md gap">
                         <a class="color-blu text-center" href="#"><i class="fa-solid fa-3x fa-file"></i></a>
