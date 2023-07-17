@@ -120,6 +120,27 @@
 .btn-white{
     background-color: white;
 }
+
+.d-flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.gap-4{
+    gap: 4rem;
+}
+
+.circle-img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    align-self: center;
+}
+
+#margin-neg{
+    margin-top: -3.5rem;
+}
 /* /utility */
 
 /* header */
@@ -168,7 +189,7 @@ header{
 }
 
 .planning p, .planning h2{
-    color: var(--soft-purple);
+    color: white;
 }
 
 .planning p{
@@ -180,7 +201,25 @@ header{
     text-align: center;
 }
 
-/* main */
+.circle{
+    display: flex;
+    margin-top: 1rem;
+    width: 60px;
+    height: 60px;
+    background-color: var(--purple);
+    border-radius: 50%;
+}
+
+.part-title{
+    font-size: xx-large;
+    color: var(--purple);
+}
+
+#margin-neg p, #margin-neg h5{
+    color: white;
+}
+
+/* /main */
 
 
 /* media-query for tablet */
@@ -205,6 +244,11 @@ header{
 
     .col-4-md{
         width: calc(100% / 12 * 3.7);
+    }
+
+    
+    .col-6-md h2, .col-6-md p{
+        font-size: larger;
     }
 
 
@@ -258,4 +302,17 @@ header{
         display: flex;
         flex-wrap: nowrap;
     }
+    
+    .col-6-md h2, .col-6-md p{
+        font-size: larger;
+    }
+
+    #card-white{
+        margin-top: 8rem;
+    }
+
+    .plan-title{
+        margin-top: 8rem;
+    }
+
 }
