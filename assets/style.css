@@ -149,6 +149,16 @@
     border-radius: 20px;
     padding: 0.3rem 0;
 }
+
+.btn-md{
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    padding: 0.5rem 0;
+    align-self: center;
+}
 /* /utility */
 
 /* header */
@@ -242,6 +252,10 @@ header{
 
 .row>.col-12 h1, .row>.col-12 h3{
     font-size: xx-large;
+}
+
+.title-about{
+    color: var(--purple);
 }
 
 
