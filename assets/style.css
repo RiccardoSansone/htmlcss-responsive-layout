@@ -141,6 +141,14 @@
 #margin-neg{
     margin-top: -3.5rem;
 }
+
+.btn-xs{
+    width: 100px;
+    text-align: center;
+    align-self: center;
+    border-radius: 20px;
+    padding: 0.3rem 0;
+}
 /* /utility */
 
 /* header */
@@ -218,6 +226,24 @@ header{
 #margin-neg p, #margin-neg h5{
     color: white;
 }
+
+.benefits{
+    margin-top: 3rem;
+    background-color: var(--purple);
+}
+
+.benefits h1, .benefits h3{
+    color: var(--soft-purple);
+}
+.benefits a{
+    color: white;
+    text-decoration: none;
+}
+
+.row>.col-12 h1, .row>.col-12 h3{
+    font-size: xx-large;
+}
+
 
 /* /main */
 
