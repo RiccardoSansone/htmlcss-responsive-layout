@@ -159,6 +159,17 @@
     padding: 0.5rem 0;
     align-self: center;
 }
+
+.btn-large{
+    color: var(--purple);
+    width: 200px;
+    text-align: center;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    font-size: large;
+    font-weight: bold;
+
+}
 /* /utility */
 
 /* header */
@@ -258,6 +269,26 @@ header{
     color: var(--purple);
 }
 
+.free{
+    background-color: var(--purple);
+}
+
+.free>.container>.col-12 h3{
+    color: var(--soft-purple);
+    font-weight: lighter;
+}
+.free>.container>.col-12 h2{
+    color: white;
+    font-size: x-large;
+}
+.free>.container>.col-12 h1{
+    font-size: 50px;
+    font-weight: bolder;
+    color: var(--yellow);
+}
+.free>.container>.col-12 p{
+    color: white;
+}
 
 /* /main */
 
