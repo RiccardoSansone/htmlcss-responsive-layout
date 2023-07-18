@@ -59,6 +59,15 @@
     background-color: white;
 }
 
+.border-radius-20{
+    border-radius: 20px;
+}
+
+#site-about{
+    padding-top: 0;
+    margin-top: 0;
+}
+
 .justify-spacebetween{
     justify-content: space-between;
 }
@@ -136,10 +145,6 @@
     object-fit: cover;
     border-radius: 50%;
     align-self: center;
-}
-
-#margin-neg{
-    margin-top: -3.5rem;
 }
 
 .btn-xs{
@@ -244,7 +249,7 @@ header{
     color: var(--purple);
 }
 
-#margin-neg p, #margin-neg h5{
+#site-about p, #site-about h5{
     color: white;
 }
 
@@ -328,6 +333,12 @@ footer a{
         flex-direction: row;
     }
 
+    .col-8-md-column{
+        width: calc(100% / 12 * 8);
+        display: flex;
+        flex-direction: column;
+    }
+
     .col-4-md{
         width: calc(100% / 12 * 3.7);
     }
@@ -337,12 +348,13 @@ footer a{
         font-size: larger;
     }
     
-    #margin-neg{
+    #site-about{
+        padding-top: 2rem;
         margin-left: -2rem;
         margin-top: 1.5rem;
     }
 
-    #margin-neg p, #margin-neg h5{
+    #site-about p, #site-about h5{
         padding-top: 3rem;
     }
     
@@ -388,6 +400,12 @@ footer a{
         display: flex;
         flex-direction: row;
     }
+    
+    .col-8-md-column{
+        width: calc(100% / 12 * 8);
+        display: flex;
+        flex-direction: column;
+    }
 
     .col-4-md{
         width: calc(100% / 12 * 3.7);
@@ -418,12 +436,13 @@ footer a{
         margin-top: 8rem;
     }
 
-    #margin-neg{
+    #site-about{
+        padding-top: 2rem;
         margin-left: -2rem;
         margin-top: 1.5rem;
     }
 
-    #margin-neg p, #margin-neg h5{
+    #site-about p, #site-about h5{
         padding-top: 3rem;
     }
 
