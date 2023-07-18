@@ -289,8 +289,23 @@ header{
 .free>.container>.col-12 p{
     color: white;
 }
-
 /* /main */
+
+
+/* footer */
+footer{
+    background-color: var(--bg-footer);
+    margin-top: -1.5rem;
+    padding-top: 3rem;
+}
+
+footer p{
+    color: white;
+}
+
+footer a{
+    color: var(--soft-purple);
+}
 
 
 /* media-query for tablet */
