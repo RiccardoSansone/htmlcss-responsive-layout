@@ -250,6 +250,15 @@ header{
     .col-6-md h2, .col-6-md p{
         font-size: larger;
     }
+    
+    #margin-neg{
+        margin-left: -2rem;
+        margin-top: 1.5rem;
+    }
+
+    #margin-neg p, #margin-neg h5{
+        padding-top: 3rem;
+    }
 
 
 }
@@ -315,4 +324,12 @@ header{
         margin-top: 8rem;
     }
 
+    #margin-neg{
+        margin-left: -2rem;
+        margin-top: 1.5rem;
+    }
+
+    #margin-neg p, #margin-neg h5{
+        padding-top: 3rem;
+    }
 }
