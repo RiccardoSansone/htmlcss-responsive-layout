@@ -345,6 +345,14 @@ footer a{
     #margin-neg p, #margin-neg h5{
         padding-top: 3rem;
     }
+    
+    .free .container{
+        width: 30%;
+    }
+
+    footer .container{
+        width: 30%;
+    }
 
 
 }
@@ -417,5 +425,13 @@ footer a{
 
     #margin-neg p, #margin-neg h5{
         padding-top: 3rem;
+    }
+
+    .free .container{
+        width: 30%;
+    }
+
+    footer .container{
+        width: 30%;
     }
 }
